@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capas Top - E-commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><span class="material-icons">home</span></a></li>
+                        <li><a href="carrinho.html"><span class="material-icons">shopping_cart</span></a></li>
+                        <li id="pedidos-link" style="display: none;"><a href="pedidos.html"><span class="material-icons">inventory</span></a></li>
+                        <li id="login-link"><a href="login.html"><span class="material-symbols-outlined">person</span></a></li>
+                        <li id="logout-link" style="display: none;"><a href="#" id="logout"><span class="material-symbols-outlined">person</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+         
+<!--cabeçalho-fim-->
+<section id="produtos">
+    <div class="banner">
+        <img src="../img/1.png" alt="Banner" class="banner-image">
+    </div>
+    <div class="container">
+        <h2>Capas para Celular</h2>
+        <div class="produtos-lista">
+            <div class="produto">
+                <img src="https://acdn.mitiendanube.com/stores/951/739/products/capa-protecao-de-camera-lisa-galaxy-s23-plus_0001_lilas1-c29a9ee3bd63d06ed416758600675157-1024-1024.jpg" alt="Capa 1">
+                <h3>Capa Samsung Galaxy</h3>
+                <p>R$ 39,90</p>
+                <button class="adicionar-carrinho" onclick="verificarLoginParaCompra('Capa Samsung Galaxy', 39.90)">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="img/capinha_iphone_16_pro_max_silicone_aveludado_novidade_0005_azul-bic-18dgj7r4dt.webp" alt="Capa 2">
+                <h3>Capa iPhone 13</h3>
+                <p>R$ 49,90</p>
+                <button class="adicionar-carrinho" onclick="verificarLoginParaCompra('Capa iPhone 13', 49.90)">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--fim-->
+    <div class="banner2">
+        <img src="../img/2.png" alt="banner2" class="banner-image2">
+    </div>
+    <!--começo da guia acessórios-->
+    <section id="acessorios">
+        <div class="acessorios-container">
+            <h2>Precisa de acessórios para seu smartphone?</h2>
+            <div class="acessorios-link">
+                <a class="acessorio-links">Fones de ouvido</a>
+                <a class="acessorio-links">Películas</a>
+                <a class="acessorio-links">Carregadores</a>
+                <a class="acessorio-links">Adaptadores</a>
+                <a class="acessorio-links">Cabos</a>
+            </div>
+        </div>
+        <div class="acessorios-catalogo">
+            <div class="acessorio-item">
+                <img src="https://cdn.awsli.com.br/600x1000/1113/1113512/produto/110434143/0fd759954d.jpg" alt="Fone de Ouvido">
+                <h3>Fones de Ouvido</h3>
+                <p>Aproveite o som de qualidade para seu smartphone.</p>
+                <a href="javascript:void(0);" class="acessorio-link" data-produto="Fones de Ouvido">Ver Fones</a>
+            </div>
+            <div class="acessorio-item">
+                <img src="https://www.iplace.com.br/ccstore/v1/images/?source=/file/v6992110678630979405/products/222225.00-pelicula-iphone-14-plus-iplace-antibacteria-transparente-303792.jpg&height=424&width=424&quality=0.9" alt="Películas">
+                <h3>Películas</h3>
+                <p>Proteja sua tela com qualidade e resistência.</p>
+                <a href="javascript:void(0);" class="acessorio-link" data-produto="Películas">Ver Películas</a>
+            </div>
+            <div class="acessorio-item">
+                <img src="https://rvatacado.com.br/wp-content/uploads/2022/12/Frame-148.png" alt="Carregadores">
+                <h3>Carregadores</h3>
+                <p>Mantenha seu dispositivo sempre carregado.</p>
+                <a href="javascript:void(0);" class="acessorio-link" data-produto="Carregadores">Ver Carregadores</a>
+            </div>
+            <div class="acessorio-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_904916-MLU75128564961_032024-O.webp" alt="Adaptadores">
+                <h3>Adaptadores</h3>
+                <p>Conecte seus dispositivos com facilidade.</p>
+                <a href="javascript:void(0);" class="acessorio-link" data-produto="Adaptadores">Ver Adaptadores</a>
+            </div>
+            <div class="acessorio-item">
+                <img src="https://img.lojadomecanico.com.br/IMAGENS/49/670/168186/1617129968600.JPG" alt="Cabos">
+                <h3>Cabos</h3>
+                <p>Cabelos de qualidade para todas as suas necessidades.</p>
+                <a href="javascript:void(0);" class="acessorio-link" data-produto="Cabos">Ver Cabos</a>
+            </div>
+        </div>
+        
+    </section>
+    <!--fim da guia acessórios-->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Capas Top - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

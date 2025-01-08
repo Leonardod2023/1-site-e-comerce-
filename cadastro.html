@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Capas Top</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><span class="material-icons">home</span></a></li>
+                        <li><a href="carrinho.html"><span class="material-icons">shopping_cart</span></a></li>
+                        <li id="pedidos-link" style="display: none;"><a href="pedidos.html"><span class="material-icons">inventory</span></a></li>
+                        <li id="login-link"><a href="login.html"><span class="material-symbols-outlined">person</span></a></li>
+                        <li id="logout-link" style="display: none;"><a href="#" id="logout"><span class="material-symbols-outlined">person</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+    <div id="cadastro">
+        <div class="container">
+            <h2>Cadastro</h2>
+            <!-- Mensagem de erro que será exibida -->
+            <div id="mensagem-erro-cadastro" class="mensagem-erro"></div>
+
+            <form id="formCadastro">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="email" id="emailCadastro" placeholder="Email" required>
+                <input type="password" id="senhaCadastro" placeholder="Senha" required>
+                <input type="password" id="confirmaSenha" placeholder="Confirme a Senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Capas Top. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
