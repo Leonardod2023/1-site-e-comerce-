@@ -15,6 +15,10 @@ O projeto foi desenvolvido como parte de um aprendizado prático em tecnologias 
 - 📋 Histórico de pedidos
 - 🎨 Design responsivo
 
+## 📷 Demonstração
+![Demonstração do Projeto](img/demo.gif)
+
+
 ## 📦 Estrutura do Projeto
 ```plaintext
 meu-projeto/
@@ -30,10 +34,16 @@ meu-projeto/
 └── README.md
 
 
-<h1>📂 Como Executar o Projeto</h1>
-<p> 1- clone o repositório </p>
+📂 Como Executar o Projeto
+Clone o repositório:
+bash
+Copiar código
 git clone https://github.com/usuario/meu-projeto.git
-
-<p> 2-Navegue até o diretório do projeto:</p>
+Navegue até o diretório do projeto:
+bash
+Copiar código
 cd meu-projeto
+Abra o arquivo index.html no navegador.
 
+📝 Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
