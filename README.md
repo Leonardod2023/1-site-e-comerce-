@@ -1,6 +1,7 @@
-# 📌 Nome do Projeto
+# 📌 Site e-comerce com função de login
 
-Breve descrição do que o projeto faz e sua importância. 
+Este projeto é uma aplicação web para vendas online, onde os usuários podem navegar por produtos, adicionar itens ao carrinho, realizar pedidos e acompanhar o histórico de compras. Com foco em design responsivo e funcionalidades práticas, a aplicação oferece uma experiência simples e eficiente para usuários finais.
+O projeto foi desenvolvido como parte de um aprendizado prático em tecnologias web, combinando HTML, CSS e JavaScript para criar uma aplicação funcional. Ele pode ser utilizado como base para projetos maiores ou estudos em e-commerce e sistemas de compras online.
 
 ## 🛠️ Tecnologias Utilizadas
 - HTML
